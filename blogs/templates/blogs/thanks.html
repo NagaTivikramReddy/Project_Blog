@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+{% if user.is_authenticated %}
+<h2>You have successfully Logged out</h2>
+<h3>Please visit again. Thanks</h3>
+{% else %}
+<h2>Thanks for visting.</h2>
+<h4>Login with different account? <i><a href="{% url 'login' %}">Login</a></i></h4>
+{% endif %}
+    
+
+
+{% endblock content %}
+
+    

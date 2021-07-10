@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.stagecenter {
+  margin: auto;
+}
+.bigbrand {
+  font-size: 1.5em;
+}
+
+.postdate {
+  text-align: center;
+}
+
+.posttitle {
+  font-family: "Russo One", sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+.postcontent {
+  font-family: "Montserrat";
+  font-size: 3em;
+}
+
+.btn-comment {
+  position: absolute;
+  right: 0px;
+}
